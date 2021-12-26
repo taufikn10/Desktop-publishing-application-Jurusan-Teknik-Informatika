@@ -1,0 +1,168 @@
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe.config
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.pdb
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.dll
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.xml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csprojAssemblyReference.cache
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\App.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.cache
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.lref
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\App.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.g.resources
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.Properties.Resources.resources
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.GenerateResource.cache
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CoreCompileInputs.cache
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CopyComplete
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.exe
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.pdb
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\Login_adm.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\Login_adm.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.baml
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.g.cs
+D:\Materi SMT 4\Pemprogaman Visual\WPF\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe.config
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.pdb
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\BouncyCastle.Crypto.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Hash.xxHash.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\MySql.Data.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\MySqlConnector.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Buffers.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Memory.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Numerics.Vectors.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\Ubiety.Dns.Core.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\Zstandard.Net.dll
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.pdb
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Hash.xxHash.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\MySql.Data.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\MySqlConnector.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Buffers.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Memory.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Numerics.Vectors.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\AdminLogin.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\App.g.cs
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.cache
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.lref
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\App.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\AdminLogin.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.baml
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.g.resources
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.Properties.Resources.resources
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.GenerateResource.cache
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CoreCompileInputs.cache
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CopyComplete
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.exe
+D:\Dokumen\Visual Studio 2019\Project\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.pdb
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe.config
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.exe
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\DesktopInformatika.pdb
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\BouncyCastle.Crypto.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Hash.xxHash.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\MySql.Data.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\MySqlConnector.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Buffers.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Memory.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Numerics.Vectors.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\Ubiety.Dns.Core.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\Zstandard.Net.dll
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\FontAwesome.WPF.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.pdb
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\Google.Protobuf.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\K4os.Hash.xxHash.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\MySql.Data.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\MySqlConnector.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Buffers.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Memory.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Numerics.Vectors.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.AssemblyReference.cache
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\AdminLogin.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailBiro.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailProdi.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\App.g.cs
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.cache
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika_MarkupCompile.lref
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\App.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\Admin.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\AdminLogin.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DetailLab.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InfoLengkapJurusan.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticBiro.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticHome.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticLab.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\InformaticProdi.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\MainWindow.baml
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.g.resources
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.Properties.Resources.resources
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.GenerateResource.cache
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CoreCompileInputs.cache
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.csproj.CopyComplete
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.exe
+D:\Kuliah\TUGAS KULIAH SEMESTER 4\Pemrograman Visual (I MADE SUARTANA)\Desktop Publishing Application Kel-7\DesktopInformatika\DesktopInformatika\obj\Debug\DesktopInformatika.pdb

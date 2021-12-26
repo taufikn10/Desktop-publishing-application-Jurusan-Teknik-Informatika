@@ -1,0 +1,34 @@
+____________________________________________________ Tutorial Run Aplikasi with Database MySQL ______________________________________________________
+
+
+
+||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-|| RUN DI DALAM VISUAL STUDIO ||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||
+
+** Xampp Controller
+	Start Apache, MySQL
+
+** Visual Studio
+	view -> server explorer -> klik kanan data connection -> add connection -> 
+
+	add connection (isine) :
+ 		- Data Source : MySQL Database (MySQL Data Provider)
+ 		- Server Name : localhost
+ 		- Username : root
+ 		- password : (kosong)
+ 		- Database name : db_desktoppublish
+
+	add connection -> test connection (test connection succeeded) -> ok -> klik kanan localhost(db_desktoppublish) -> refresh -> run aplikasi
+
+||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||
+
+
+||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-|| RUN APLIKASI (DI LUAR VISUAL STUDIO) ||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||-||
+** Xampp Controller
+	Start Apache, MySQL
+
+
+** File Explorer
+	Folder DesktopInformatika -> Folder DesktopInformatika -> Folder bin -> Folder Debug -> File DesktopInformatika ( Type Apllication / .exe )
+
+	Notulensi Folder : DesktopInformatika/DesktopInformatika/bin/Debug/DesktopInformatika.exe
+	

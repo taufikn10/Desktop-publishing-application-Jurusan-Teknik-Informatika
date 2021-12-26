@@ -1,0 +1,742 @@
+﻿<Application x:Class="DesktopInformatika.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DesktopInformatika"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+    <!--***** START STYLE ADMIN *****-->
+        <Style x:Key="updateJudul" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
+
+        <Style x:Key="updateLabel" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
+
+        <Style x:Key="updateFieldStyle" TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Width" Value="246.67"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+        </Style>
+
+        <Style x:Key="updateComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Width" Value="246.67"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+        </Style>
+
+        <Style x:Key="updateButtonStyle" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Background" Value="Red"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+        </Style>
+    <!--***** END STYLE ADMIN *****-->
+
+
+        
+        
+    <!--***** START STYLE INFO LENGKAP JURUSAN *****-->
+        <!-- Style Header -->
+        <Style x:Key="headerColorInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FFFFE800"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="540"></Setter>
+            <Setter Property="Height" Value="5"></Setter>
+        </Style>
+
+        <Style x:Key="headerInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="224"></Setter>
+        </Style>
+
+        <Style x:Key="bgLogoHeaderInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="White"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="95"></Setter>
+            <Setter Property="Height" Value="95"></Setter>
+            <Setter Property="RadiusX" Value="12.833"></Setter>
+            <Setter Property="RadiusY" Value="12.833"></Setter>
+        </Style>
+        
+        <Style x:Key="logoHeaderInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="95"></Setter>
+            <Setter Property="Height" Value="95"></Setter>
+            <Setter Property="RadiusX" Value="12.833"></Setter>
+            <Setter Property="RadiusY" Value="12.833"></Setter>
+        </Style>
+
+        <Style x:Key="textJurusan" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontFamily" Value="Poplar Std"></Setter>
+            <Setter Property="FontSize" Value="36"></Setter>
+        </Style>
+
+        <Style x:Key="textUniv" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontFamily" Value="Agency FB"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <Style x:Key="layoutLeftInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="257.5"></Setter>
+            <Setter Property="Height" Value="446"></Setter>
+        </Style>
+
+        <Style x:Key="layoutCenterInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="278"></Setter>
+            <Setter Property="Height" Value="446"></Setter>
+        </Style>
+
+        <Style x:Key="layoutRightInfo" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="258.5"></Setter>
+            <Setter Property="Height" Value="446"></Setter>
+        </Style>
+
+        <Style x:Key="layoutFooter1" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-17.722963,566.6531 C238.77704,568.1531 257,565 257,565 257,595 257,595 257,595 791,590.5 784.0417,590.56544 784.0417,590.56544 788.5417,667.06544 786.66079,672.02531 786.66079,672.02531 -10.84838,668.34642 -12.812196,670.7112 -12.812196,670.7112 -2.9228907,562.12577 -17.722963,566.6531 -17.722963,566.6531 z"></Setter>
+            <Setter Property="Fill" Value="White"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="823"></Setter>
+            <Setter Property="Height" Value="135.764"></Setter>
+        </Style>
+
+        <Style x:Key="layoutFooter2" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-17.722963,566.6531 C238.77704,568.1531 246.47635,566.6531 246.47635,566.6531 246.47635,596.6531 246.43153,595.03295 246.43153,595.03295 780.43153,590.53295 787.9255,588.98917 787.9255,588.98917 792.4255,665.48917 786.66079,672.02531 786.66079,672.02531 -10.84838,668.34642 -12.812196,670.7112 -12.812196,670.7112 -2.9228907,562.12577 -17.722963,566.6531 -17.722963,566.6531 z"></Setter>
+            <Setter Property="Fill" Value="#FF092751"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="823"></Setter>
+            <Setter Property="Height" Value="133.701"></Setter>
+        </Style>
+
+        <Style x:Key="displayColorKet" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FFE2CE08"></Setter>
+            <Setter Property="Width" Value="246.5"></Setter>
+            <Setter Property="Height" Value="225"></Setter>
+        </Style>
+
+        <Style x:Key="displayBorderKet" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FFFFFFFB"></Setter>
+            <Setter Property="Width" Value="246.5"></Setter>
+            <Setter Property="Height" Value="215"></Setter>
+        </Style>
+
+        <Style x:Key="displayKet" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="TextAlignment" Value="Justify"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Width" Value="227.23"></Setter>
+            <Setter Property="Height" Value="200"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        </Style>
+
+        <Style x:Key="blogJudul" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="RadiusX" Value="12.833"></Setter>
+            <Setter Property="RadiusY" Value="12.833"></Setter>
+            <Setter Property="Width" Value="156"></Setter>
+            <Setter Property="Height" Value="43.1"></Setter>
+        </Style>
+
+        <Style x:Key="blogIcon" TargetType="Ellipse">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="White"></Setter>
+            <Setter Property="Width" Value="50"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+        </Style>
+
+        <Style x:Key="labelKet" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <Style x:Key="imgAyoKuliah" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="258.5"></Setter>
+            <Setter Property="Height" Value="152.55"></Setter>
+        </Style>
+
+        <Style x:Key="judulAyoKuliah" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FF665959"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="163"></Setter>
+            <Setter Property="Height" Value="36"></Setter>
+            <Setter Property="RadiusX" Value="11.5"></Setter>
+            <Setter Property="RadiusY" Value="11.5"></Setter>
+        </Style>
+    <!--***** END INFO LENGKAP JURUSAN*****-->
+
+
+
+
+
+    <!--***** START STYLE INFORMATICS HOME *****-->
+        <!-- Style Header -->
+        <Style x:Key="headerHome" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="300"></Setter>
+        </Style>
+
+        <!-- Style Header Textblock -->
+        <Style x:Key="headerJudulHome" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="FontFamily" Value="Quicksand"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontWeight" Value="Black"/>
+        </Style>
+
+        <!-- Style Content -->
+        <Style x:Key="contentHome" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="180"></Setter>
+            <Setter Property="Height" Value="200"></Setter>
+        </Style>
+
+        <Style x:Key="labelDetailHome" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="23"></Setter>
+            <Setter Property="FontFamily" Value="DFPOP1-W9"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <Style x:Key="buttonDetailHome" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="35"></Setter>
+            <Setter Property="Background" Value="#FF2192FB"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+        </Style>
+    <!--***** END STYLE INFORMATICS HOME *****-->
+
+
+        
+        
+        
+    <!--***** START STYLE INFORMATIC PRODI *****-->
+        <!-- Style Header -->
+        <Style x:Key="headerProdi" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="290"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader1" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-0.00033320457,385.99202 C805.33334,161.04233 799.99392,170.00183 800,170 800.00002,169.99999 799.66667,570.33333 799.66667,570.33333 L-0.33333333,570.33365 z"></Setter>
+            <Setter Property="Fill" Value="#262626"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="460"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader2" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M123.49988,-0.00042158985 C1.9998749,130.49958 0,132 0,132 0,-1.5 0.24999973,-0.25 0.24999973,-0.25 123.99988,-0.50042319 123.49988,-0.00042158985 123.49988,-0.00042158985 z"></Setter>
+            <Setter Property="Fill" Value="#FF4399D6"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="123.5"></Setter>
+            <Setter Property="Height" Value="133"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader3" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-0.24970401,132.25022 C-0.91637068,148.91689 -0.00012001178,148.25011 -0.00012001178,148.25011 141.33321,1.5860018 141.333,0.0025602759 141.333,0.0025602759 122.66662,0.0025602758 122.66662,0.0025602759 122.66662,0.0025602759 0.66633489,129.33335 -0.24970401,132.25022 -0.24970401,132.25022 z"></Setter>
+            <Setter Property="Fill" Value="#FF227CB8"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="132"></Setter>
+            <Setter Property="Height" Value="142"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader4" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M0,226 C262,331 265.5,333.00006 265.5,333.00006 3.5,414.00006 0,412 0,412 0,224 0,226 0,226 z"></Setter>
+            <Setter Property="Fill" Value="#FF227CB8"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="265.5"></Setter>
+            <Setter Property="Height" Value="186.5"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader5" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M800,95.499863 C179,296.49986 175.5,297 175.5,297 259.5,333 259.5,333 259.5,333 801,171 801,171 801,171 799.5,94.5 800,95.499863 800,95.499863 z"></Setter>
+            <Setter Property="Fill" Value="#FF989BC4"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="639.5"></Setter>
+            <Setter Property="Height" Value="250"></Setter>
+        </Style>
+
+        <Style x:Key="headerLogoProdi" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="100"></Setter>
+        </Style>
+
+        <Style x:Key="headerJudulProdi" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Stencil"></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+        </Style>
+
+        <!-- Style Content -->
+        <Style x:Key="contentProdi" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="175"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="#FF2192FB"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="FontFamily" Value="NewsGoth Cn BT"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+        </Style>
+
+        <!-- Style Content Keterangan -->
+        <Style x:Key="contentKetProdi" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+            <Setter Property="TextAlignment" Value="Justify"></Setter>
+            <Setter Property="TextWrapping" Value="WrapWithOverflow"></Setter>
+            <Setter Property="Width" Value="314"></Setter>
+            <Setter Property="Height" Value="241"></Setter>
+        </Style>
+    <!--***** END STYLE INFORMATIC PRODI *****-->
+
+        
+        
+        
+        
+    <!--***** START STYLE INFORMATIC LABORATORIUM *****-->
+        <!-- Style Header -->
+        <Style x:Key="headerLab" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="658"></Setter>
+            <Setter Property="Height" Value="220"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader6" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M275.5,0 C1,261 -1,261 -1,261 0,-1 -1,-1 -1,-1 276,-1 275.5,0 275.5,0 z"></Setter>
+            <Setter Property="Fill" Value="White"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="276.5"></Setter>
+            <Setter Property="Height" Value="262"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader7" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-0.24971401,87.125068 C803.75029,297.12507 800.00031,181.99999 800.00031,181.99999 800.00031,387.99999 799.83333,570.16667 799.83333,570.16667 -0.1666659,570.16667 -0.16638067,569.99969 -0.16638067,569.99969 -2.1663807,153.99969 -0.24971401,87.125068 -0.24971401,87.125068 z"></Setter>
+            <Setter Property="Fill" Value="#262626"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="850"></Setter>
+            <Setter Property="Height" Value="484"></Setter>
+        </Style>
+
+        <Style x:Key="headerLogoLab" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="90"></Setter>
+            <Setter Property="Height" Value="90"></Setter>
+        </Style>
+
+        <Style x:Key="headerJudulLab" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Stencil"></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
+            
+        <!-- Style Content -->
+        <Style x:Key="contentKetLab" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+            <Setter Property="TextAlignment" Value="Justify"></Setter>
+            <Setter Property="TextWrapping" Value="WrapWithOverflow"></Setter>
+            <Setter Property="Width" Value="383.5"></Setter>
+            <Setter Property="Height" Value="179"></Setter>
+        </Style>
+
+        <Style x:Key="contentLab" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="239"></Setter>
+            <Setter Property="Height" Value="44"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="#FF2192FB"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="FontFamily" Value="NewsGoth Cn BT"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+        </Style>
+    <!--***** END STYLE INFORMATIC LABORATORIUM-->
+
+    
+        
+        
+        
+    <!--***** START STYLE INFORMATIC BIRO *****-->
+        <!-- Style Header -->
+        <Style x:Key="headerBiro" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="270"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader8" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M-6.4251729,228.29748 C623.57483,102.29748 626.65165,99.817621 626.65165,99.817621 653.65171,129.81762 654.6664,130.02067 654.6664,130.02067 -2.3336639,263.52067 -3.5918393,264.30641 -3.5918393,264.30641 z"></Setter>
+            <Setter Property="Fill" Value="#FFF5F5F8"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="661.5"></Setter>
+            <Setter Property="Height" Value="169.5"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader9" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M542.24954,-0.5 C654.24954,130.5 657.2768,132.57981 657.2768,132.57981 687.2768,125.57981 689.77681,126.07981 689.77681,126.07981 574.77681,-0.92019221 571,-2 571,-2 543,0 542.24954,-0.5 542.24954,-0.5 z"></Setter>
+            <Setter Property="Fill" Value="#FFF5F5F8"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Opacity" Value="0.5"></Setter>
+            <Setter Property="Width" Value="148"></Setter>
+            <Setter Property="Height" Value="135"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader10" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M570,0 C799.5,246 802.5134,251.16672 802.5134,251.16672 804.0134,219.66672 801,214.5 801,214.5 570,-3 570,0 570,0 z"></Setter>
+            <Setter Property="Fill" Value="#FFA2A2A2"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Opacity" Value="0.9"></Setter>
+            <Setter Property="Width" Value="231"></Setter>
+            <Setter Property="Height" Value="252"></Setter>
+        </Style>
+
+        <Style x:Key="pathHeader11" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M570.99969,-1.9998893 C798.99969,212.00011 801.83364,219.83333 801.83364,219.83333 799.83364,3.8333319 801.16666,-2.8331936 801.16666,-2.8331936 575.16666,-4.8331936 570.99969,-1.9998893 570.99969,-1.9998893 z"></Setter>
+            <Setter Property="Fill" Value="#FFD3D300"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Opacity" Value="0.9"></Setter>
+            <Setter Property="Width" Value="231"></Setter>
+            <Setter Property="Height" Value="223.5"></Setter>
+        </Style>
+         
+        <Style x:Key="pathHeader12" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M687.33333,125.33385 C-0.66666667,263.33385 0,264 0,264 -2,566 -2,566 -2,566 802,568 802,568 802,568 800,250 800,246.87547 800,246.87547 690,120.87547 687.33333,125.33385 687.33333,125.33385 z"></Setter>
+            <Setter Property="Fill" Value="#FF262626"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="804"></Setter>
+        </Style>
+        
+        <Style x:Key="logoHeaderBiro" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="89"></Setter>
+            <Setter Property="Height" Value="84.5"></Setter>
+        </Style>
+
+        <!-- Start Content -->
+        <Style x:Key="whiteContentBiro" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M546,190 C671,190 671,189 671,189 690,225 690,225 690,225 576,224 576,224 576,224 546,189 546,190 546,190 z"></Setter>
+            <Setter Property="Fill" Value="#FFBDBDCB"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="144"></Setter>
+            <Setter Property="Height" Value="36"></Setter>
+        </Style>
+
+        <Style x:Key="yellowContentBiro" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Data" Value="M546,190 C671,190 671,189 671,189 690,225 690,225 690,225 576,224 576,224 576,224 546,189 546,190 546,190 z"></Setter>
+            <Setter Property="Fill" Value="#FFD3D300"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Width" Value="144"></Setter>
+            <Setter Property="Height" Value="36"></Setter>
+        </Style>
+
+        <Style x:Key="judulContentBiro" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <Style x:Key="contentKetBiro" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+            <Setter Property="TextAlignment" Value="Justify"></Setter>
+            <Setter Property="TextWrapping" Value="WrapWithOverflow"></Setter>
+            <Setter Property="Width" Value="328"></Setter>
+            <Setter Property="Height" Value="160.5"></Setter>
+        </Style>
+
+        <Style x:Key="placeContentBiro" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FF72BBFF"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="100"></Setter>
+            <Setter Property="RadiusX" Value="20"></Setter>
+            <Setter Property="RadiusY" Value="20"></Setter>
+        </Style>
+        
+        <Style x:Key="contentBiro" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontFamily" Value="NewsGoth Cn BT"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="100"></Setter>
+            <Setter Property="Padding" Value="10, 20, 10, 0"></Setter>
+        </Style>
+
+        <Style x:Key="contentButtonBiro" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="160"></Setter>
+            <Setter Property="Height" Value="44"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="#FF2192FB"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="FontFamily" Value="NewsGoth Cn BT"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+        </Style>
+    <!--***** END STYLE INFORMATIC BIRO *****-->
+        
+        
+        
+        
+        
+    <!--***** START STYLE DETAIL *****-->
+        <!-- Style Judul Display -->
+        <Style x:Key="blueDisplayDetail" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FF0023FF"></Setter>
+            <Setter Property="Opacity" Value="0.8"></Setter>
+            <Setter Property="Width" Value="196"></Setter>
+            <Setter Property="Height" Value="100"></Setter>
+            <Setter Property="RadiusX" Value="14"></Setter>
+            <Setter Property="RadiusY" Value="14"></Setter>
+        </Style>
+
+        <Style x:Key="whiteDisplayDetail" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Width" Value="235"></Setter>
+            <Setter Property="Height" Value="86"></Setter>
+            <Setter Property="Fill" Value="White"></Setter>
+            <Setter Property="StrokeMiterLimit" Value="5"></Setter>
+            <Setter Property="StrokeStartLineCap" Value="Square"></Setter>
+            <Setter Property="StrokeEndLineCap" Value="Square"></Setter>
+        </Style>
+
+        <Style x:Key="headerDetail" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Showcard Gothic"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+
+        <Style x:Key="spaceBreakDetail" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Fill" Value="#FF0023FF"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="2.5"></Setter>
+        </Style>
+
+        <Style x:Key="jurusanDetail" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+
+        <!-- Style Grid -->
+        <Style x:Key="dataGridStyle" TargetType="DataGrid">
+            <Setter Property="Opacity" Value="0.9"></Setter>
+            <Setter Property="ColumnHeaderHeight" Value="60"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="CanUserReorderColumns" Value="False"></Setter>
+            <Setter Property="CanUserAddRows" Value="False"></Setter>
+            <Setter Property="CanUserDeleteRows" Value="False"></Setter>
+            <Setter Property="CanUserResizeColumns" Value="False"></Setter>
+            <Setter Property="CanUserResizeRows" Value="False"></Setter>
+            <Setter Property="Width" Value="780"></Setter>
+        </Style>
+        
+        <!-- Style Column Header Grid -->
+        <Style x:Key="data_grid" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#FF0023FF"></Setter>
+            <Setter Property="Padding" Value="0, 0, 30, 0"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+    <!--***** END STYLE DETAIL *****-->
+
+        
+        
+        
+
+    <!--***** START STYLE FOOTER *****-->
+        <!-- Style Footer -->
+        <Style x:Key="footerStyle" TargetType="Path">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="Data" Value="M-0.17398806,510.333 C289.32601,510.333 299.00014,538.0001 299.00014,538.0001 370.00012,460.66651 603.99992,525.00006 603.99992,525.00006 742.49985,561.00018 799.5,507 799.5,507 799.5,600 799.5,600 799.5,600 3,598.5 0.33300007,600.33333 0.33300007,600.33333 -2.6669999,510.33333 -0.17398806,510.333 -0.17398806,510.333 z"></Setter>
+            <Setter Property="Stretch" Value="Fill"></Setter>
+            <Setter Property="Fill" Value="#FF989BC4"></Setter>
+            <Setter Property="Width" Value="800"></Setter>
+            <Setter Property="Height" Value="110"></Setter>
+        </Style>
+
+        <!-- Style Footer Logo-->
+        <Style x:Key="footerLogoStyle" TargetType="Rectangle">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="Width" Value="90"></Setter>
+            <Setter Property="Height" Value="85"></Setter>
+        </Style>
+
+        <!-- Style Footer Label -->
+        <Style x:Key="footerLabelStyle" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+
+        <!-- Style Button Get Start -->
+        <Style x:Key="buttonGetStartStyle" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="35"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="Medium"></Setter>
+            <Setter Property="Background" Value="#FF2192FB"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF2161FB"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    <!--***** END STYLE FOOTER *****-->
+        
+        
+        
+    </Application.Resources>
+</Application>

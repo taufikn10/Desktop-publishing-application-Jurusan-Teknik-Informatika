@@ -1,0 +1,47 @@
+﻿<Window x:Class="DesktopInformatika.DetailLab"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopInformatika"
+        xmlns:fa="clr-namespace:FontAwesome.WPF;assembly=FontAwesome.WPF"
+        mc:Ignorable="d" 
+        
+        x:Name="Lab" Loaded="Lab_Loaded"
+        Title="Detail Lab" Height="600" Width="800" 
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="ToolWindow" 
+        Icon="images/BiroIco.ico" 
+        Background="#FF262626">
+
+    <Grid>
+        <Rectangle 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="10"
+            Height="600"   
+            Width="800">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="images/background lab.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Style="{StaticResource blueDisplayDetail}" Margin="0, 0, 0, 0"/>
+        <Rectangle Style="{StaticResource whiteDisplayDetail}" Margin="0, 0, 0, 0"/>
+        <Rectangle Style="{StaticResource spaceBreakDetail}" Margin="0, 47, 0, 0"/>
+        <Label Style="{StaticResource headerDetail}" Margin="0, 10, 0, 0" Content="Laboratorium"/>
+        <Label Style="{StaticResource jurusanDetail}" Margin="0, 52, 0, 0" Content="Jurusan Teknik Informatika"/>
+
+        <DataGrid 
+            x:Name="DataGridLab" 
+            ItemsSource="{Binding}"
+            Style="{StaticResource dataGridStyle}"
+            ColumnHeaderStyle="{DynamicResource data_grid}"
+            
+            Margin="10, 120, 10, 10" 
+            Padding="5, 10, 25, 10">
+            
+        </DataGrid>
+            
+    </Grid>
+</Window>
